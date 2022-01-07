@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="My note book"
+          android:gravity="center"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          tools:ignore="MissingConstraints" />
+
+      <EditText
+          android:id="@+id/editid"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:lines="15"
+          android:hint="Write text"
+          android:gravity="top"
+          android:padding="10dp"
+          android:layout_marginTop="25dp"
+          android:background="@drawable/edittext"
+          />
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        android:text="submit"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
